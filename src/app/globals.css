@@ -28,7 +28,7 @@ body {
 
 .main-header {
   margin-top: 20px;
-  background-image: url('../../public/darkBG.png');
+  background-image: url('../../public/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
