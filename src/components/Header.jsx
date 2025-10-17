@@ -1,14 +1,17 @@
 import React from "react";
-
+import { AuroraText } from "@/components/ui/aurora-text"
 const Header = () => {
   return (
 
     
     <div className="main-header min-h-screen flex items-center">
       <div className="header-data mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-white py-20 sm:py-28 md:py-32">
-        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-center animate-pulse">
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-center">
           Discover, Compare & Subscribe to the Best
-          <br className="hidden md:inline" /> Tools in One Place
+          <br  /> 
+          <AuroraText> 
+          Tools in One Place
+          </AuroraText>
         </h1>
 
         <h4 className="text-center mt-6 sm:mt-8 text-base sm:text-lg text-[#AFAFAF] font-semibold">
